@@ -22,6 +22,4 @@ const fareTripler = function createFareMultiplier(fare) {
     return fare * 3;
 }
 
-const selectDifferentDrivers = (drivers, returnFirstTwoDrivers) => {
-    return returnFirstTwoDrivers(drivers);
-}
+const selectDifferentDrivers = (drivers, returnFirstTwoDrivers) => returnFirstTwoDrivers(drivers)
